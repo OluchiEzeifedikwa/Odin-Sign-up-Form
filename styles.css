@@ -1,0 +1,30 @@
+
+img {
+    float:left;
+    margin-right: 20px;
+}
+
+input {
+    border: 2px solid #000;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
+
+button {
+    padding: 5px;
+    background-color: green;
+}
+
+button:hover {
+    background-color: blue;
+    
+}
